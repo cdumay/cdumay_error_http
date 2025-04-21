@@ -3,8 +3,6 @@
 //! [![cdumay_error_http on docs.rs](https://docs.rs/cdumay_error_http/badge.svg)](https://docs.rs/cdumay_error_http)
 //! [![Source Code Repository](https://img.shields.io/badge/Code-On%20GitHub-blue?logo=GitHub)](https://github.com/cdumay/cdumay_error_http)
 //!
-//! # HTTP Error Converter
-//!
 //! This crate provides structured mapping from HTTP status codes to custom application error types using the [`cdumay_error`](https://docs.rs/cdumay_error/) crate. It is especially useful when you want to handle HTTP error responses in a standardized and extensible way.
 //!
 //! ## Features
