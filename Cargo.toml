@@ -1,0 +1,16 @@
+[package]
+name = "cdumay_error_http"
+version = "0.1.0"
+edition = "2024"
+authors = ["Cédric Dumay <cedric.dumay@gmail.com>"]
+description = "A Rust Library for JSON error"
+documentation = "https://docs.rs/cdumay_error_http"
+homepage = "https://github.com/cdumay/cdumay_error_http"
+license-file = "LICENSE"
+readme = "README.md"
+repository = "https://github.com/cdumay/cdumay_error_http"
+
+[dependencies]
+http = "1.3"
+cdumay_error = { version = "1.0", features = ["derive"] }
+serde-value = "0.7"
